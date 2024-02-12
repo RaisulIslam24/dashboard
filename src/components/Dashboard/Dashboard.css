@@ -1,0 +1,14 @@
+.dashboardList {
+    display: flex;
+}
+
+.dashboardListRight {
+    flex: 4;
+}
+
+@media only screen and (max-width: 600px) {
+  .dashboardList{
+      display: flex;
+      flex-direction: column;
+  }
+}
